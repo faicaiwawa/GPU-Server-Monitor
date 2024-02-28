@@ -5,3 +5,11 @@
 * MySQL存储用户和服务器数据，InfluxDB存储服务器的运行历史数据；采用JSCH框架实现远程SSH连接；WebSocket与前端对接实现前端Shell操作；Redis存储的登录/重置操作验证码并进行IP地址限流处理；RabbitMQ积压短信发送任务。
 * 使用Swagger作为接口文档自动生成，自动配置登录相关接口；采用过滤器实现对所有请求自动生成雪花ID方便线上定位问题。
 * Web端基于Vue3和ElementUI；Xterm.js模拟Terminal窗口，ECharts将历史数据以折线图形式展示。
+  
+![图片1](pic/fig3.png)
+
+![图片2](pic/fig1.png)
+
+![图片1](pic/fig4.png)
+
+![图片2](pic/fig2.png)
